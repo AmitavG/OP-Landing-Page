@@ -85,6 +85,7 @@ img{
     justify-content: center;
     gap: 0px;
     margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .caption{
@@ -99,4 +100,55 @@ img{
 img{
     border-radius: 15px;
     border: 5px solid black;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#author{
+    font-weight: 700;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup{
+    background-color: #3882f9;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px auto;
+    color: white;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.signup .smol-button{
+    border: 3px solid white;
+    align-self: center;
+}
+
+#big{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: rgb(77, 77, 255);
+}
+
+.main-header .footer{
+    color: white;
+    padding: 30px;
 }
